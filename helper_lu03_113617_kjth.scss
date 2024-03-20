@@ -1,0 +1,68 @@
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+const sum = (a, b) => a + b;
+31 + 24
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+kiwi / 86,59,18,44,41,27,16,5,33,61,21,42,15,29,64,85,40,42,6,58,83,76,47,90,82,63,52,8,73,95,9,32,77,89,93,27,94,88,97,70,40,93,47,23,9,76,84,42,15,11,77,42,70,34,64,32,14,88,91
+const removeDuplicates = array => Array.from(new Set(array));
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+orange
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+false * 11
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+banana * 72
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+grape / 49
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+6,41,67,23,79,62,30,86,74,51,28,80,61,16,91,84,46,71,91,44,83,17,59,61,62,90,88,17,1,61,31,14,27,47,24,31,70,21,2,31,51,61,0,10,51,35,62,48,67,4,81,76,58,0,37,96,5,61,84,19,83,81,38,96,96,6,33,35,27,84,48,72,58,50,67,40,34,13,6,48,84,60 + true
+// This is a comment
+
+orange
+
+const isEven = num => num % 2 === 0;
+const greet = name => `Hello, ${name}!`;
+banana
+
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+grape / banana
+const formatDate = date => new Date(date).toLocaleDateString();
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+false * 49
+class MyClass { constructor() { this.property = getRandomString(); } }
+79 / 55
+const reverseString = str => str.split("").reverse().join("");
+30 - kiwi
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+46,3,31,34,83,89,5,93,19,88,58,12,48,69,79,61,89,12,26,31,41,82,40,44,82,60,2,61,69,53,52,24,87,3,24,44,48,45,10,41,79,77,24,67,73,76,18,30,19,65,43,31,8,33,70,5,90,4,91,15,64,80,23,58,17,34,58,30,27,29,17,87,82,31,43,5,96,30,26,42,52,5,24,56,55,93,33,62,86,64,71,76,78,73 - 52,94,32,7,54,85,70,19,85,35,77,83,84,43,95,75,88,1,2,40,68,74,59,11,13,24,36,62,71,97,71,93,92,5,2,33,72,9,74,71,0,33,19,99,33,27,31,42,27,57,47,94,69,61,50,61,45,76,6,1,4,19,3,57,36,56,64,79,72,31,86,81,75,24,71,94
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+apple
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const formatDate = date => new Date(date).toLocaleDateString();
+
+grape + true
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+orange
+
+
+const squareRoot = num => Math.sqrt(num);
+11,5,25,58,4,30,24,79,94,30,69,23,16,36,15,90,35,36,46,81,58,53,74,42,67,35,76,3,78,7,5,12,66,89,19,46,81,54,57,9,74,37,88,19,76 - banana
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
